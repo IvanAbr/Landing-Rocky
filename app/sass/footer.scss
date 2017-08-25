@@ -1,0 +1,120 @@
+.footer {
+    background: #e2e4f7;
+
+        &-title {
+            text-align: center;
+            padding: 20px 0;
+            font-family: $prodispmed;
+            font-size: 24px;
+        }
+        
+        &__bottom {
+            display: flex;
+            align-items: baseline;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        &__item {
+            width: 280px;
+            height: 345px;
+            margin: 10px 15px;
+                
+                &:hover {
+                    opacity: 0.5;
+                    transition: 0.01s;
+                }
+        }
+}
+ .pic1 , .pic2 , .pic3 , .pic4 {
+    display: block;
+    max-width: 100%;
+}
+.pic--salad {
+    height: 160px;
+    background: url(../img/Layer8.jpg) no-repeat;
+}
+.pic--sound {
+    height: 160px;
+    background: url(../img/Layer9.jpg) 0px -53px no-repeat;
+}
+.pic--list {
+    height: 160px;
+    background: url(../img/Layer10.jpg) 0 -67px no-repeat;
+}
+.pic--sound:hover,.pic--salad:hover,.pic--list:hover {
+    background-size: inherit;
+    transition: all 0.65s ease 0s;
+    transform: scale(1.1);
+}
+.cover-foot {
+    overflow: hidden;
+}
+.underimage {
+    background: #f4f5ff;
+    width: 280px;
+        
+        &__content {
+            border-bottom: 1px solid #999;
+            padding-top: 10px;
+            text-align: center;
+        }
+        
+        &__title {
+            margin: 10px auto;
+            font-size: 10px;
+            color: #cfcfd1;
+            font-family: $groteskmed;
+        }
+        
+        &__main {
+            text-align: center;
+            font-family: $prodispreg;
+            font-size: 18px;
+            margin-top: 15px;
+            margin-bottom: 30px;
+        }
+        
+        &__social {
+            display: flex;
+            justify-content: space-between;
+            padding: 15px;
+            opacity: 0.7;
+        }
+        
+        &-views {
+            display: flex;
+            align-items: center;
+        }
+        
+        &-likes {
+            display: flex;
+            align-items: center;
+        }
+}
+.soc {
+    font-family: $groteskmed;
+    font-size: 12px;
+    margin-left: 5px;
+}
+.mobile-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: #04d9d9;
+    transition: 0.3s;
+}
+a.bottom-link:hover {
+    opacity: 0.5;
+    color: #999;
+    transition: 0.01s;
+}
+

@@ -1,0 +1,71 @@
+@font-face {
+    font-family: BoldGrotesk;
+    src: url(../fonts/AktivGroteskCorp-Bold.ttf);
+}
+
+@font-face {
+    font-family: ItalicGrotesk;
+    src: url(../fonts/AktivGroteskCorp-BoldItalic.ttf);
+}
+$groteskit: ItalicGrotesk, sans-serif;
+
+@font-face {
+    font-family: ProDisplay;
+    src: url(../fonts/GT-Eesti-Pro-Display-Thin_1.otf);
+}
+
+@font-face {
+    font-family: ProDisplayReg;
+    src: url(../fonts/GT-Eesti-Pro-Display-Regular.otf);
+}
+$prodispreg: ProDisplayReg, sans-serif;
+
+@font-face {
+    font-family: ProDisplayMed;
+    src: url(../fonts/GT-Eesti-Pro-Display-Medium.otf);
+}
+$prodispmed: ProDisplayMed, sans-serif;
+
+@font-face {
+    font-family: GroteskRegular;
+    src: url(../fonts/AktivGroteskCorp-Regular.ttf);
+}
+$groteskreg: GroteskRegular, sans-serif;
+
+@font-face {
+    font-family: GroteskMedium;
+    src: url(../fonts/AktivGroteskCorp-Medium.ttf);
+}
+$groteskmed: GroteskMedium, sans-serif;
+
+@font-face {
+    font-family: GroteskLight;
+    src: url(../fonts/AktivGroteskCorp-Light.ttf);
+}
+
+body {
+    background: #f4f5ff;
+}
+.container {
+    text-align: center;
+    margin-top: 80px;
+    max-width: 790px;
+    margin: 0 auto;
+
+        &-big{
+            max-width:1400px;
+            margin: 0 auto;
+        }
+}
+
+
+@import 'header';
+
+@import 'content';
+
+@import 'footer';
+
+@import 'progres';
+
+@import 'mobile';
+ 

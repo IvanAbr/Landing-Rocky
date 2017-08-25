@@ -1,0 +1,175 @@
+.content {
+    margin: 90px auto;
+        
+        &__bottom {
+            text-align: left;
+            font-family: italic;
+            width: 790px;
+            margin: 90px auto 10px;
+            max-width: 100%;
+        }
+}
+.name {
+    font-size: 12px;
+    margin: 0 7px;
+    font-family: $groteskreg;
+    font-weight:bold;
+}
+.data {
+    font-size: 12px;
+    color: #cfcfd1;
+    font-family: $groteskreg;
+}
+.title-caption {
+    font-size: 10px;
+    color: #cfcfd1;
+    margin-top: 80px;
+    font-family: $groteskmed;
+}
+.title-main {
+    font-family: $prodispreg;
+}
+
+.title__author {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.image__main {
+    max-width: 100%;
+}
+.subtitle {
+    font-family: $prodispmed;
+    font-size:24px;
+    margin-top:30px;
+    margin-bottom:50px;
+}
+
+ .table {
+    display: flex;
+    justify-content: center;
+    width: 790px;
+    margin: 0 auto;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.15);
+        
+        &__block {
+            width: 148px;
+            height: 60px;
+            background: #ffffff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;         
+            overflow: hidden;
+                
+                &:first-child {
+                    border-right: 1px solid #e7e7f0;
+                }
+                
+                &-center {
+                    width: 162px;
+                    height: 60px;
+                    background: #ffffff;
+                    border-right: 1px solid #e7e7f0;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    overflow: hidden;
+                }
+        }
+}    
+.block-main {
+    font-family: $groteskmed;
+    font-size:16px;
+}
+.block-caption {
+    font-family: $groteskmed;
+    font-size:14px;
+    color:#cfcfd1;
+}
+
+.bold {
+    font-family: BoldGrotesk;
+    border-right: 1px solid black;
+}
+.first {
+    margin-top:100px;
+    margin-bottom:30px;
+    line-height: 28px;
+}
+.text {
+    width: 790px;
+    line-height: 32px;
+    font-size: 18px;
+    max-width: 100%;
+    font-family: GroteskLight;
+    text-align:left;
+    margin: 20px auto;
+}
+.float {
+    width:996px;
+    margin: 25px auto;
+        
+        &-block {
+            float: left;
+            margin-right: 14px;
+            height: 250px;
+            position:relative;
+                
+                &::before {
+                    position:absolute;
+                    content:url(../img/W.png);
+                    top: 80px;
+                    left: 62px;
+                }
+                
+                &::after {
+                    position:absolute;
+                    content:'Amazon Echo';
+                    font-family: $prodispmed;
+                    top: 130px;
+                    left: 40px;
+                }
+        }
+}
+.last {
+    width: 894px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.bottom__img {
+    display: flex;
+    align-items: flex-start;
+    align-content: stretch;
+    justify-content: flex-start;
+    margin: 20px 0;
+}
+.bottom__second {
+    width: 790px;
+    max-width: 100%;
+    margin: auto;
+}
+.bottom-second-w {
+    text-align: center;
+    margin-top: -17px;
+}
+ .bottom-second-a {
+    text-align: center;
+    margin-top: -5px;
+}
+.bottom__second-img {
+    display: block;
+}
+.bottom__second-content {
+    line-height: 20px;
+    font-size: 17px;
+    margin-top: 10px;
+}
+.bottom__second-content-end {
+    margin-top: 10px;
+    line-height: 20px;
+    font-size: 17px;
+}
+.opacity {
+    opacity: 0.7;
+    border-right: 1px solid black;
+}
