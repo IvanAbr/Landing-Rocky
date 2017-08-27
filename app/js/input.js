@@ -1,13 +1,22 @@
 document.querySelector(".i")
   .addEventListener( "click", function() {
     var div = document.querySelector(".search");
-    if (div.style.display !== 'block') {
-        div.style.width = '40%';
-        div.style.display = 'block';
-        
+    if (div.style.width !== '60%') {
+        div.style.width = '60%';
+        div.style.border = '1px solid black';    
     }
     else {
-        div.style.display = 'none';
+        div.style.width = '0px';
+        div.style.border = 'none';
+    }
+  });
+  document.querySelector(".btn-menu")
+  .addEventListener( "click", function() {
+    var div = document.querySelector(".bar");
+    if (div.style.width !== '100%') {
+        div.style.width = '100%';
+    }
+    else {
         div.style.width = '0px';
     }
   });

@@ -9,10 +9,10 @@
 }
 $groteskit: ItalicGrotesk, sans-serif;
 
-@font-face {
-    font-family: ProDisplay;
-    src: url(../fonts/GT-Eesti-Pro-Display-Thin_1.otf);
-}
+// @font-face {
+//     font-family: ProDisplay;
+//     src: url(../fonts/GT-Eesti-Pro-Display-Thin_1.otf);
+// }
 
 @font-face {
     font-family: ProDisplayReg;
@@ -43,6 +43,12 @@ $groteskmed: GroteskMedium, sans-serif;
     src: url(../fonts/AktivGroteskCorp-Light.ttf);
 }
 
+@font-face {
+    font-family: ProDisplayLight;
+    src: url(../fonts/GT-Eesti-Pro-Display-Thin_1.otf);
+}
+$prodisplaylight: ProDisplayLight, sans-serif;
+
 body {
     background: #f4f5ff;
 }
@@ -52,8 +58,15 @@ body {
     max-width: 790px;
     margin: 0 auto;
 
-        &-big{
-            max-width:1400px;
+        &-big {
+            max-width:1422px;
+            margin: 0 auto;
+        }
+
+        &-border {
+            border: 9px solid #e2e4f7;
+            max-width: 1422px;
+            max-height: 2942px;
             margin: 0 auto;
         }
 }

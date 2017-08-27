@@ -1,19 +1,11 @@
 .content {
-    margin: 90px auto;
-        
-        &__bottom {
-            text-align: left;
-            font-family: italic;
-            width: 790px;
-            margin: 90px auto 10px;
-            max-width: 100%;
-        }
+    margin: 83px auto 54px;
 }
 .name {
     font-size: 12px;
-    margin: 0 7px;
     font-family: $groteskreg;
-    font-weight:bold;
+    margin-right: 5px;
+    margin-left: 3px;
 }
 .data {
     font-size: 12px;
@@ -23,26 +15,37 @@
 .title-caption {
     font-size: 10px;
     color: #cfcfd1;
-    margin-top: 80px;
     font-family: $groteskmed;
+    margin-top: 88px;
+    letter-spacing: 0.5px;
 }
 .title-main {
     font-family: $prodispreg;
+    font-size: 48px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+    line-height: 58px;
 }
 
 .title__author {
     display:flex;
     justify-content: center;
     align-items: center;
+    letter-spacing: 0.2px;
 }
 .image__main {
     max-width: 100%;
+    margin-top: 24px;
 }
 .subtitle {
     font-family: $prodispmed;
-    font-size:24px;
-    margin-top:30px;
-    margin-bottom:50px;
+    font-size: 24px;
+    letter-spacing: 0.6px;
+    line-height: 34px;
+    margin-top:20px;
+    margin-bottom:45px;
 }
 
  .table {
@@ -53,7 +56,7 @@
     box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.15);
         
         &__block {
-            width: 148px;
+            width: 147px;
             height: 60px;
             background: #ffffff;
             display: flex;
@@ -62,14 +65,14 @@
             overflow: hidden;
                 
                 &:first-child {
-                    border-right: 1px solid #e7e7f0;
+                    border-right: 2px solid #e7e7f0;
                 }
                 
                 &-center {
                     width: 162px;
                     height: 60px;
                     background: #ffffff;
-                    border-right: 1px solid #e7e7f0;
+                    border-right: 2px solid #e7e7f0;
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
@@ -86,24 +89,31 @@
     font-size:14px;
     color:#cfcfd1;
 }
+.container-img {
+        margin-left: 22.2%;
+}  
 
-.bold {
-    font-family: BoldGrotesk;
-    border-right: 1px solid black;
-}
-.first {
-    margin-top:100px;
-    margin-bottom:30px;
-    line-height: 28px;
-}
-.text {
+.text-first {
     width: 790px;
-    line-height: 32px;
     font-size: 18px;
     max-width: 100%;
     font-family: GroteskLight;
     text-align:left;
-    margin: 20px auto;
+    margin-top:100px;
+    margin-bottom:30px;
+    line-height: 28px;
+    letter-spacing: 0.7px;
+}
+.text-second {
+    width: 790px;
+    font-size: 18px;
+    max-width: 100%;
+    font-family: GroteskLight;
+    text-align:left;
+    margin-top: -6px;
+    margin-bottom: 23px;
+    line-height: 32px;
+    letter-spacing: 0.7px;
 }
 .float {
     width:996px;
